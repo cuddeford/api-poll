@@ -7,7 +7,7 @@ class Poller {
      * 
      * @param {String} endpoint The endpoint to poll
      * @param {Object} options Configuration options
-     * @param {Number} options.repeat How frequently to poll (ms)
+     * @param {Number} options.repeat How frequently to poll (ms). Default is `10000`.
      * @param {String} options.method Request method. "GET" or "POST"
      * @param {Boolean|Object} options.variance Vary the poll repeating interval to be less obviously robotic
      * 
@@ -18,6 +18,8 @@ class Poller {
      * Otherwise, an explict range can be set with `min` and `max`, both of which represent the minumum and maximum
      * variance. E.g. if `repeat` is `2000`, `min` is `200` and `max` is `1000` then the overall repeating interval
      * will vary between `2200` and `3000`.
+     * 
+     * Default is `false`, i.e. no variance.
      * @param {Number} options.variance.min The minumum variance for the repeating interval (ms)
      * @param {Number} options.variance.max The maximum variance for the repeating interval (ms)
      * @param {Object} options.fetchHeaders Headers to include in the fetch request
