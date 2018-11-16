@@ -1,4 +1,4 @@
-const Poller = require('api-poller')
+const Poller = require('api-poll')
 
 const endpoint = 'https://cat-fact.herokuapp.com/facts/random?animal=cat&amount=1'
 const randomFact = new Poller(endpoint, {
