@@ -1,6 +1,6 @@
 {
   "name": "api-poll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Event driven external API poller designed for real-time applications",
   "main": "index.js",
   "scripts": {},
