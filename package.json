@@ -1,0 +1,22 @@
+{
+  "name": "api-poller",
+  "version": "1.0.0",
+  "description": "Event driven external API poller designed for real-time applications",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cuddeford/api-poller.git"
+  },
+  "keywords": [
+    "poller",
+    "api",
+    "real-time",
+    "polling"
+  ],
+  "author": "Lucio Cuddeford",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}
