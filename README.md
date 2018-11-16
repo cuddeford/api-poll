@@ -2,6 +2,8 @@
 
 An event driven external API poller designed for real-time applications.
 
+Documentation is in the JSDocs.
+
 ## Example
 
 ```javascript
